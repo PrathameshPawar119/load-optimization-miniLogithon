@@ -2,14 +2,7 @@
 Viktor version 14 and Python V3.7
 
 ## How to run this app
-1. Clone the repo
-2. Move to container-app folder
-3. install the python version 3.7 on system
-4. signup on Viktor cloud and complete verification
-5. install victor-cli into system using installation guide by Viktor
-6. to install dependencies and create venv run command> viktor-cli install
-7. to run app command> viktor-cli start
-8. It will not open on localhost, will create a workspace on Viktor profile, in editor mode, view your app there
+
 
 ![image](https://github.com/PrathameshPawar119/load-optimization-miniLogithon/assets/104665278/8f01a26d-8810-41e2-98b4-9de22a1ed9d3)
 
