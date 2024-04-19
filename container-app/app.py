@@ -15,6 +15,15 @@ import rectpack.packer as packer
 import matplotlib.pyplot as plt
 import random
 from datetime import datetime
+import cloudinary
+import cloudinary.uploader
+
+
+cloudinary.config( 
+  cloud_name = "damoxae5y", 
+  api_key = "223799184653671", 
+  api_secret = "QT3RA3ovPfNkZyLX50R84RX0xjo" 
+)
 
 
 class Parametrization(ViktorParametrization):
@@ -132,6 +141,11 @@ class Controller(ViktorController):
             f.write(svg_data.getvalue())
 
         print(f"SVG image saved to: {file_path}")
+        
+  
+        image_path = cloudinary.uploader.upload(file_path,
+                                    public_id="olympic_flag")
+        print("image from cloudinary, ", image_path['url'])
         print(f"Params : {params}")
         ...
 
