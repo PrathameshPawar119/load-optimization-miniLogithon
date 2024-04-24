@@ -3,6 +3,9 @@ Viktor version 14 and Python V3.7
 
 
 ## How to run this app
+
+
+https://docs.viktor.ai/docs/getting-started/installation/
 1. Clone the repo
 2. Move to container-app folder
 3. install the python version 3.7 on system
