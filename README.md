@@ -1,8 +1,11 @@
-## This is low code python Viktor app aimed to visualize and optimize the load optimization in logistics container
+## This is a python Viktor app aimed to visualize and optimize the load optimization in logistics container
 Viktor version 14 and Python V3.7
-
+Visit  - https://cloud.viktor.ai/public/prathamesh-pawar-mini-logithon-demo
 
 ## How to run this app
+
+
+https://docs.viktor.ai/docs/getting-started/installation/
 1. Clone the repo
 2. Move to container-app folder
 3. install the python version 3.7 on system
